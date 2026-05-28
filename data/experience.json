@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Data Engineer",
+    "company": "Capital One",
+    "date": "Aug 2025 - Present",
+    "description": "McLean, VA. Rebuilt delayed finance reporting pipelines on AWS and Snowflake, cutting refresh cycles 42% and restoring on-time executive dashboards. Replaced manual deployments with Airflow, DBT, and CI/CD automation (release effort down 60%) and launched a Kafka + Spark streaming framework for faster transaction-anomaly detection. Tuned Snowflake workloads for 40% lower runtime and strengthened IAM, encryption, and lineage controls for audit readiness.",
+    "icon": "/default-company.svg",
+    "iconBg": "#004977"
+  },
+  {
+    "id": 2,
+    "title": "Data Engineer",
+    "company": "American Express",
+    "date": "Nov 2024 - Aug 2025",
+    "description": "Phoenix, AZ. Led the Teradata-to-BigQuery exit program, building a Python conversion engine that translated thousands of BTEQ scripts and removed months of manual remediation. Designed Cloud Composer orchestration for ingestion, reconciliation, and validation, and cut BigQuery spend 45% via partitioning, clustering, and materialized views while accelerating analyst queries. Implemented CMEK/IAM governance and proactive alerting to prevent SLA breaches.",
+    "icon": "/default-company.svg",
+    "iconBg": "#006FCF"
+  },
+  {
+    "id": 3,
+    "title": "Data Engineer",
+    "company": "Amazon",
+    "date": "May 2022 - Nov 2024",
+    "description": "Dallas, TX. Built high-volume ETL and Spark frameworks processing billions of records across inventory, fulfillment, customer, and operations datasets, increasing throughput while reducing overnight failures. Created dimensional marts standardizing metric definitions, added Airflow retries, dependencies, and alerts, and introduced reconciliation and schema validation to catch data issues early. Automated environment provisioning with Terraform to reduce drift across shared deployments.",
+    "icon": "/default-company.svg",
+    "iconBg": "#FF9900"
+  },
+  {
+    "id": 4,
+    "title": "Data Engineer",
+    "company": "Genpact Solutions",
+    "date": "Jan 2020 - Aug 2021",
+    "description": "India. Built Spark pipelines and Kafka streaming integrations turning raw warehouse, API, and event data into trusted datasets for analytics and near real-time dashboards. Reduced recurring batch delays 35% through Spark memory, caching, and execution tuning, and migrated legacy on-prem pipelines to AWS for better scalability and recoverability. Delivered Tableau and Power BI dashboards with row-level security and supported CI/CD releases via Jenkins, Git, and containers.",
+    "icon": "/default-company.svg",
+    "iconBg": "#264653"
+  }
+]

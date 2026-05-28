@@ -1,0 +1,61 @@
+{
+  "user": {
+    "login": "nandamudimohanteja",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25291004?v=4",
+    "public_repos": 13,
+    "followers": 0,
+    "following": 0
+  },
+  "repos": [
+    {
+      "id": 1,
+      "name": "data-pipelines-with-airflow",
+      "description": "Orchestrated ETL workflows with Apache Airflow DAGs covering scheduling, retries, and dependency management.",
+      "html_url": "https://github.com/nandamudimohanteja/data-pipelines-with-airflow",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0
+    },
+    {
+      "id": 2,
+      "name": "etl-data-pipeline-using-airflow",
+      "description": "End-to-end ETL pipeline built with Airflow for ingestion, transformation, and loading into a data warehouse.",
+      "html_url": "https://github.com/nandamudimohanteja/etl-data-pipeline-using-airflow",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0
+    },
+    {
+      "id": 3,
+      "name": "youtube-trending-etl-aws",
+      "description": "AWS data pipeline (S3, Glue, Athena) analyzing YouTube trending datasets at scale.",
+      "html_url": "https://github.com/nandamudimohanteja/youtube-trending-etl-aws",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0
+    },
+    {
+      "id": 4,
+      "name": "covid19-data-engineering",
+      "description": "Data engineering pipeline ingesting, cleaning, and modeling COVID-19 datasets for analytics.",
+      "html_url": "https://github.com/nandamudimohanteja/covid19-data-engineering",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0
+    },
+    {
+      "id": 5,
+      "name": "extracting-structured-data-from-pdfs",
+      "description": "Python utility for parsing and extracting structured data from PDF documents.",
+      "html_url": "https://github.com/nandamudimohanteja/extracting-structured-data-from-pdfs",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0
+    }
+  ]
+}

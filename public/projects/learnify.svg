@@ -1,0 +1,21 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg11)"/>
+  <text x="300" y="60" text-anchor="middle" fill="#10A37F" font-family="Arial, sans-serif" font-size="40" font-weight="bold">Learnify</text>
+  <text x="300" y="90" text-anchor="middle" fill="#3178C6" font-family="Arial, sans-serif" font-size="16">Interactive Learning Platform</text>
+  <!-- Book/graduation cap icon -->
+  <path d="M300 120 L220 160 L300 200 L380 160 Z" fill="#10A37F" opacity="0.8"/>
+  <rect x="250" y="200" width="100" height="60" fill="#10A37F" opacity="0.6"/>
+  <!-- Progress bars -->
+  <rect x="180" y="230" width="240" height="15" rx="7" fill="#333"/>
+  <rect x="180" y="230" width="180" height="15" rx="7" fill="#10A37F"/>
+  <text x="430" y="242" fill="#888" font-size="12">75%</text>
+  <rect x="180" y="255" width="240" height="15" rx="7" fill="#333"/>
+  <rect x="180" y="255" width="120" height="15" rx="7" fill="#2c9ffe"/>
+  <text x="430" y="267" fill="#888" font-size="12">50%</text>
+</svg>

@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "name": "Languages & Scripting",
+      "icon": "fas fa-code",
+      "skills": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Java",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "name": "Data Engineering & Processing",
+      "icon": "fas fa-stream",
+      "skills": [
+        "Apache Spark",
+        "Spark SQL",
+        "PySpark",
+        "Kafka",
+        "Airflow",
+        "DBT",
+        "Databricks",
+        "Hadoop",
+        "Hive",
+        "CDC Pipelines",
+        "Batch Processing",
+        "Streaming Pipelines"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "icon": "fas fa-cloud",
+      "skills": [
+        "AWS",
+        "Google Cloud (GCP)",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "name": "AWS Services",
+      "icon": "fab fa-aws",
+      "skills": [
+        "S3",
+        "Glue",
+        "EMR",
+        "Redshift",
+        "Athena",
+        "Lambda",
+        "Kinesis",
+        "IAM",
+        "ECS",
+        "CloudWatch",
+        "Step Functions"
+      ]
+    },
+    {
+      "name": "GCP Services",
+      "icon": "fab fa-google",
+      "skills": [
+        "BigQuery",
+        "Composer",
+        "Dataflow",
+        "Dataproc",
+        "Cloud Storage",
+        "Cloud Functions",
+        "Monitoring"
+      ]
+    },
+    {
+      "name": "Databases & Warehouses",
+      "icon": "fas fa-database",
+      "skills": [
+        "Snowflake",
+        "Redshift",
+        "BigQuery",
+        "SQL Server",
+        "PostgreSQL",
+        "MySQL",
+        "Teradata"
+      ]
+    },
+    {
+      "name": "DevOps & Automation",
+      "icon": "fas fa-cogs",
+      "skills": [
+        "Jenkins",
+        "GitHub Actions",
+        "Docker",
+        "Terraform",
+        "CloudFormation",
+        "CI/CD Pipelines",
+        "Git"
+      ]
+    },
+    {
+      "name": "BI & Reporting",
+      "icon": "fas fa-chart-bar",
+      "skills": [
+        "Power BI",
+        "Tableau",
+        "QuickSight"
+      ]
+    },
+    {
+      "name": "Architecture & Governance",
+      "icon": "fas fa-sitemap",
+      "skills": [
+        "ETL",
+        "ELT",
+        "Data Modeling",
+        "Star Schema",
+        "Dimensional Modeling",
+        "Data Quality",
+        "Metadata Controls",
+        "Access Governance",
+        "Performance Tuning",
+        "Cost Optimization",
+        "Production Support"
+      ]
+    }
+  ]
+}

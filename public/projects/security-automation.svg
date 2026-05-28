@@ -1,0 +1,18 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d1b2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg3)"/>
+  <text x="300" y="80" text-anchor="middle" fill="#3776AB" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Security Automation</text>
+  <text x="300" y="115" text-anchor="middle" fill="#FFD43B" font-family="Arial, sans-serif" font-size="16">Python OSINT &amp; Network Tools</text>
+  <!-- Shield icon -->
+  <path d="M300 140 L340 155 L340 195 Q340 220 300 240 Q260 220 260 195 L260 155 Z" fill="none" stroke="#10A37F" stroke-width="3"/>
+  <path d="M280 185 L295 200 L320 170" stroke="#10A37F" stroke-width="4" fill="none"/>
+  <!-- Code lines -->
+  <rect x="150" y="260" width="80" height="8" rx="4" fill="#3776AB" opacity="0.6"/>
+  <rect x="240" y="260" width="120" height="8" rx="4" fill="#FFD43B" opacity="0.6"/>
+  <rect x="370" y="260" width="80" height="8" rx="4" fill="#3776AB" opacity="0.6"/>
+</svg>

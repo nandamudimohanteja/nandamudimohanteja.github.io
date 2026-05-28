@@ -1,0 +1,93 @@
+.container {
+  padding: 1rem 0;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #eee;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--article-bg, #1f2428);
+  border: 1px solid rgba(44, 159, 254, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: #2c9ffe;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(44, 159, 254, 0.2);
+}
+
+.icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.name {
+  color: #eee;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.issuer {
+  color: #2c9ffe;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.date {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.credentialId {
+  color: #6b7280;
+  font-size: 0.8rem;
+  font-family: monospace;
+}
+
+.note {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(44, 159, 254, 0.1);
+  border-radius: 4px;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

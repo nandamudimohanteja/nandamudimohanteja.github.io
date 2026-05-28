@@ -1,0 +1,25 @@
+{
+  "email": "mohanteja.0117@gmail.com",
+  "phone": "+1 508 598 8940",
+  "socials": [
+    {
+      "name": "Email",
+      "username": "mohanteja.0117@gmail.com",
+      "url": "mailto:mohanteja.0117@gmail.com",
+      "icon": "email"
+    },
+    {
+      "name": "Phone",
+      "username": "+1 508 598 8940",
+      "url": "tel:+15085988940",
+      "icon": "phone"
+    },
+    {
+      "name": "GitHub",
+      "username": "@nandamudimohanteja",
+      "url": "https://github.com/nandamudimohanteja",
+      "icon": "github"
+    }
+  ],
+  "repoUrl": "https://github.com/nandamudimohanteja"
+}

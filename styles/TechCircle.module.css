@@ -1,0 +1,292 @@
+.container {
+  position: relative;
+  width: 380px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Background glow effect */
+.glowEffect {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(44, 159, 254, 0.15) 0%,
+    rgba(44, 159, 254, 0.05) 40%,
+    transparent 70%
+  );
+  filter: blur(20px);
+}
+
+/* Outer dashed ring */
+.outerDashedRing {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 2px dashed rgba(44, 159, 254, 0.3);
+  animation: rotateReverse 60s linear infinite;
+}
+
+/* Outer ring container - rotates clockwise */
+.outerRing {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  animation: rotate 25s linear infinite;
+}
+
+/* Middle dashed ring */
+.middleDashedRing {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 2px dashed rgba(44, 159, 254, 0.25);
+  animation: rotate 45s linear infinite;
+}
+
+/* Inner ring container - rotates counter-clockwise */
+.innerRing {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  animation: rotateReverse 20s linear infinite;
+}
+
+/* Tech items on outer ring */
+.techItem {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
+  border: 2px solid rgba(44, 159, 254, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  transform: rotate(var(--angle)) translateX(170px) rotate(calc(-1 * var(--angle)));
+  animation: fadeIn 0.5s ease-out var(--delay) both;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(44, 159, 254, 0.2);
+}
+
+.techItem:hover {
+  border-color: var(--glow-color, #2c9ffe);
+  box-shadow: 0 0 20px var(--glow-color, rgba(44, 159, 254, 0.6));
+  transform: rotate(var(--angle)) translateX(170px) rotate(calc(-1 * var(--angle))) scale(1.15);
+  z-index: 10;
+}
+
+/* Tech items on inner ring */
+.innerTechItem {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
+  border: 2px solid rgba(44, 159, 254, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  margin-left: -19px;
+  margin-top: -19px;
+  transform: rotate(var(--angle)) translateX(110px) rotate(calc(-1 * var(--angle)));
+  animation: fadeInInner 0.5s ease-out var(--delay) both;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(44, 159, 254, 0.2);
+}
+
+.innerTechItem:hover {
+  border-color: var(--glow-color, #2c9ffe);
+  box-shadow: 0 0 20px var(--glow-color, rgba(44, 159, 254, 0.6));
+  transform: rotate(var(--angle)) translateX(110px) rotate(calc(-1 * var(--angle))) scale(1.15);
+  z-index: 10;
+}
+
+/* Tech icon container */
+.techIcon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: counterRotate 25s linear infinite;
+}
+
+.techIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.innerTechItem .techIcon {
+  width: 22px;
+  height: 22px;
+  animation: rotate 20s linear infinite;
+}
+
+/* Center circle */
+.centerCircle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1a1a2e 0%, #0f0f23 100%);
+  border: 2px solid rgba(44, 159, 254, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    0 0 30px rgba(44, 159, 254, 0.3),
+    inset 0 0 20px rgba(44, 159, 254, 0.1);
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.centerIcon {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c9ffe;
+  text-shadow: 0 0 10px rgba(44, 159, 254, 0.5);
+}
+
+/* Animations */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes counterRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: rotate(var(--angle)) translateX(140px) rotate(calc(-1 * var(--angle))) scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(var(--angle)) translateX(170px) rotate(calc(-1 * var(--angle))) scale(1);
+  }
+}
+
+@keyframes fadeInInner {
+  from {
+    opacity: 0;
+    transform: rotate(var(--angle)) translateX(80px) rotate(calc(-1 * var(--angle))) scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(var(--angle)) translateX(110px) rotate(calc(-1 * var(--angle))) scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 30px rgba(44, 159, 254, 0.3),
+      inset 0 0 20px rgba(44, 159, 254, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 40px rgba(44, 159, 254, 0.5),
+      inset 0 0 30px rgba(44, 159, 254, 0.2);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 320px;
+    height: 320px;
+  }
+  .glowEffect {
+    width: 280px;
+    height: 280px;
+  }
+  .outerDashedRing,
+  .outerRing {
+    width: 290px;
+    height: 290px;
+  }
+  .middleDashedRing,
+  .innerRing {
+    width: 180px;
+    height: 180px;
+  }
+  .techItem {
+    width: 36px;
+    height: 36px;
+    margin-left: -18px;
+    margin-top: -18px;
+    transform: rotate(var(--angle)) translateX(145px) rotate(calc(-1 * var(--angle)));
+  }
+  .techItem:hover {
+    transform: rotate(var(--angle)) translateX(145px) rotate(calc(-1 * var(--angle))) scale(1.15);
+  }
+  .innerTechItem {
+    width: 32px;
+    height: 32px;
+    margin-left: -16px;
+    margin-top: -16px;
+    transform: rotate(var(--angle)) translateX(90px) rotate(calc(-1 * var(--angle)));
+  }
+  .innerTechItem:hover {
+    transform: rotate(var(--angle)) translateX(90px) rotate(calc(-1 * var(--angle))) scale(1.15);
+  }
+  .techIcon {
+    width: 18px;
+    height: 18px;
+  }
+  .innerTechItem .techIcon {
+    width: 16px;
+    height: 16px;
+  }
+  .centerCircle {
+    width: 65px;
+    height: 65px;
+  }
+  .centerIcon {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: none;
+  }
+}

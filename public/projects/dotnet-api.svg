@@ -1,0 +1,21 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg5)"/>
+  <text x="300" y="80" text-anchor="middle" fill="#512BD4" font-family="Arial, sans-serif" font-size="36" font-weight="bold">.NET CRUD API</text>
+  <text x="300" y="115" text-anchor="middle" fill="#68217A" font-family="Arial, sans-serif" font-size="16">RESTful API with Entity Framework</text>
+  <!-- API endpoints -->
+  <rect x="150" y="140" width="300" height="35" rx="5" fill="#512BD4" opacity="0.3"/>
+  <text x="170" y="163" fill="#85EA2D" font-family="monospace" font-size="14">GET</text>
+  <text x="220" y="163" fill="white" font-family="monospace" font-size="14">/api/products</text>
+  <rect x="150" y="185" width="300" height="35" rx="5" fill="#512BD4" opacity="0.3"/>
+  <text x="170" y="208" fill="#49CC90" font-family="monospace" font-size="14">POST</text>
+  <text x="230" y="208" fill="white" font-family="monospace" font-size="14">/api/products</text>
+  <rect x="150" y="230" width="300" height="35" rx="5" fill="#512BD4" opacity="0.3"/>
+  <text x="170" y="253" fill="#FCA130" font-family="monospace" font-size="14">PUT</text>
+  <text x="220" y="253" fill="white" font-family="monospace" font-size="14">/api/products/{id}</text>
+</svg>

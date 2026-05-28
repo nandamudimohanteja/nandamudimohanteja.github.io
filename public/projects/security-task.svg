@@ -1,0 +1,25 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg14)"/>
+  <text x="300" y="55" text-anchor="middle" fill="#3178C6" font-family="Arial, sans-serif" font-size="30" font-weight="bold">Security Task Manager</text>
+  <text x="300" y="85" text-anchor="middle" fill="#0078D4" font-family="Arial, sans-serif" font-size="14">TypeScript + PowerShell Automation</text>
+  <!-- Task list -->
+  <rect x="150" y="110" width="300" height="160" rx="8" fill="#1e1e1e" stroke="#333"/>
+  <rect x="165" y="125" width="20" height="20" rx="3" fill="#10A37F"/>
+  <path d="M170 135 L175 140 L185 130" stroke="white" stroke-width="2" fill="none"/>
+  <rect x="195" y="127" width="180" height="14" rx="2" fill="#444"/>
+  <rect x="165" y="155" width="20" height="20" rx="3" fill="#10A37F"/>
+  <path d="M170 165 L175 170 L185 160" stroke="white" stroke-width="2" fill="none"/>
+  <rect x="195" y="157" width="150" height="14" rx="2" fill="#444"/>
+  <rect x="165" y="185" width="20" height="20" rx="3" fill="#333" stroke="#555"/>
+  <rect x="195" y="187" width="200" height="14" rx="2" fill="#444"/>
+  <rect x="165" y="215" width="20" height="20" rx="3" fill="#333" stroke="#555"/>
+  <rect x="195" y="217" width="120" height="14" rx="2" fill="#444"/>
+  <!-- Shield icon -->
+  <path d="M500 140 L540 155 L540 195 Q540 220 500 240 Q460 220 460 195 L460 155 Z" fill="none" stroke="#2c9ffe" stroke-width="2"/>
+</svg>

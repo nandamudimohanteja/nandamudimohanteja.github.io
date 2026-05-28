@@ -1,0 +1,28 @@
+{
+  "title": "MOHAN TEJA NANDAMUDI - Data Engineer Portfolio",
+  "description": "Data Engineer with 6+ years building and optimizing enterprise data pipelines, cloud warehouses, and real-time ingestion frameworks across AWS, GCP, Snowflake, Spark, Kafka, Airflow, Python, and SQL. Experience across Capital One, American Express, and Amazon delivering gains in pipeline stability, reporting speed, cloud cost efficiency, and migration outcomes.",
+  "keywords": [
+    "data engineer",
+    "mohan teja nandamudi",
+    "portfolio",
+    "python",
+    "sql",
+    "pyspark",
+    "apache spark",
+    "kafka",
+    "airflow",
+    "dbt",
+    "snowflake",
+    "bigquery",
+    "redshift",
+    "aws",
+    "gcp",
+    "etl",
+    "elt",
+    "data pipelines",
+    "dimensional modeling",
+    "data governance"
+  ],
+  "siteUrl": "https://nandamudimohanteja.github.io",
+  "ogImage": "/og-image.svg"
+}

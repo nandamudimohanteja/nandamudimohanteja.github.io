@@ -1,0 +1,20 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg2)"/>
+  <text x="300" y="100" text-anchor="middle" fill="#DC382D" font-family="Arial, sans-serif" font-size="36" font-weight="bold">Fraud Detection</text>
+  <text x="300" y="140" text-anchor="middle" fill="#2496ED" font-family="Arial, sans-serif" font-size="18">Real-time Streaming Pipeline</text>
+  <!-- Stream visualization -->
+  <path d="M100 200 Q200 180 300 200 Q400 220 500 200" stroke="#2c9ffe" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M100 220 Q200 200 300 220 Q400 240 500 220" stroke="#FF6F00" stroke-width="3" fill="none" opacity="0.6"/>
+  <circle cx="150" cy="200" r="20" fill="#2496ED"/>
+  <text x="150" y="205" text-anchor="middle" fill="white" font-size="10">Kafka</text>
+  <circle cx="300" cy="210" r="25" fill="#E6526F"/>
+  <text x="300" y="215" text-anchor="middle" fill="white" font-size="10">Flink</text>
+  <circle cx="450" cy="200" r="20" fill="#326CE5"/>
+  <text x="450" y="205" text-anchor="middle" fill="white" font-size="10">Docker</text>
+</svg>

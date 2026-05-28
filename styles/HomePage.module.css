@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.background {
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--bg-text);
+  position: absolute;
+  z-index: 1;
+}
+
+.foreground {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.greeting {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.2rem;
+  color: #eee;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.codeIcon {
+  color: #2c9ffe;
+  font-weight: 600;
+}
+
+.firstName {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #eee;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.lastName {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f97316;
+  margin: 0 0 1rem 0;
+  line-height: 1.1;
+}
+
+.role {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.3rem;
+  color: #eee;
+  margin-bottom: 1.5rem;
+}
+
+.typed {
+  color: #2c9ffe;
+  font-weight: 500;
+}
+
+.cursor {
+  color: #2c9ffe;
+  animation: blink 1s step-end infinite;
+  font-weight: 300;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.description {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
+  color: #9ca3af;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background: linear-gradient(135deg, #2c9ffe 0%, #1e7fd6 100%);
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(44, 159, 254, 0.4);
+}
+
+.outlined {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  color: #2c9ffe;
+  border: 2px solid #2c9ffe;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.outlined:hover {
+  background: rgba(44, 159, 254, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(44, 159, 254, 0.2);
+}
+
+/* 4K Screens */
+@media screen and (min-width: 2000px) {
+  .background {
+    font-size: 8.5rem;
+  }
+  .content {
+    padding: 0 3rem;
+    max-width: 900px;
+  }
+  .firstName, .lastName {
+    font-size: 6rem;
+  }
+  .greeting {
+    font-size: 1.8rem;
+  }
+  .role {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.3rem;
+  }
+  .button, .outlined {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
+
+/* iPad Pro */
+@media screen and (max-width: 1100px) {
+  .background {
+    font-size: 4rem;
+  }
+  .container {
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+  .foreground {
+    margin: 4rem 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .firstName, .lastName {
+    font-size: 3.5rem;
+  }
+  .greeting {
+    justify-content: center;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}
+
+/* iPad */
+@media screen and (max-width: 900px) {
+  .foreground {
+    margin: 2rem 0;
+  }
+  .firstName, .lastName {
+    font-size: 3rem;
+  }
+  .role {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1100px) {
+  .container {
+    display: flex;
+  }
+}
+
+/* iPad Pro */
+@media screen and (max-width: 768px) {
+  .background {
+    font-size: 3rem;
+  }
+}
+
+/* Phone */
+@media screen and (max-width: 600px) {
+  .foreground {
+    margin: 0;
+    padding-top: 40px;
+  }
+  .firstName, .lastName {
+    font-size: 2.2rem;
+  }
+  .greeting {
+    font-size: 1rem;
+  }
+  .role {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.85rem;
+  }
+  .button, .outlined {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}

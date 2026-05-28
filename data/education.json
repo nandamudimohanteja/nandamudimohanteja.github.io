@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "degree": "M.S. in Data Science",
+    "school": "University of Massachusetts Dartmouth",
+    "date": "Dec 2022",
+    "description": "Dartmouth, MA.",
+    "icon": "/default-school.svg",
+    "iconBg": "#27AE60"
+  }
+]

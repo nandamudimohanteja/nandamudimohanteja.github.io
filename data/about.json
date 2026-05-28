@@ -1,0 +1,17 @@
+{
+  "bio": [
+    "Hello! I'm Mohan Teja Nandamudi, a Data Engineer based in McLean, VA.",
+    "Data Engineer with 6+ years building and optimizing enterprise data pipelines, cloud warehouses, and real-time ingestion frameworks across AWS, GCP, Snowflake, Spark, Kafka, Airflow, Python, and SQL environments. I've delivered measurable gains in pipeline stability, reporting speed, cloud cost efficiency, and migration outcomes for high-volume finance and eCommerce platforms at Capital One, American Express, and Amazon. My hands-on expertise spans batch processing, streaming architecture, CI/CD automation, dimensional modeling, data governance, SLA-driven production support, and analytics enablement."
+  ],
+  "highlights": [
+    "6+ years building enterprise data pipelines across AWS, GCP, and Snowflake",
+    "Expert in Spark, PySpark, Kafka, Airflow, DBT, Python, and SQL",
+    "Delivered data platforms at Capital One, American Express, and Amazon"
+  ],
+  "interests": [
+    "Streaming Architecture",
+    "Cloud Cost Optimization",
+    "Dimensional Modeling",
+    "Data Governance"
+  ]
+}

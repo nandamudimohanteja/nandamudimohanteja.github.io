@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Data Pipelines with Airflow",
+    "image": "/default-project.svg",
+    "description": "Orchestrated ETL workflows with Apache Airflow DAGs, covering scheduling, retries, and dependency management for reliable batch processing.",
+    "tags": [
+      "Airflow",
+      "Python",
+      "ETL"
+    ],
+    "source_code": "https://github.com/nandamudimohanteja/data-pipelines-with-airflow",
+    "demo": "https://github.com/nandamudimohanteja/data-pipelines-with-airflow"
+  },
+  {
+    "id": 2,
+    "name": "ETL Data Pipeline using Airflow",
+    "image": "/default-project.svg",
+    "description": "End-to-end ETL pipeline built with Airflow for ingestion, transformation, and loading data into a warehouse with dependable scheduling.",
+    "tags": [
+      "Airflow",
+      "Python",
+      "Data Warehouse"
+    ],
+    "source_code": "https://github.com/nandamudimohanteja/etl-data-pipeline-using-airflow",
+    "demo": "https://github.com/nandamudimohanteja/etl-data-pipeline-using-airflow"
+  },
+  {
+    "id": 3,
+    "name": "YouTube Trending ETL on AWS",
+    "image": "/default-project.svg",
+    "description": "AWS data pipeline using S3, Glue, and Athena to ingest and analyze YouTube trending datasets at scale.",
+    "tags": [
+      "AWS",
+      "Glue",
+      "Athena",
+      "S3"
+    ],
+    "source_code": "https://github.com/nandamudimohanteja/youtube-trending-etl-aws",
+    "demo": "https://github.com/nandamudimohanteja/youtube-trending-etl-aws"
+  },
+  {
+    "id": 4,
+    "name": "COVID-19 Data Engineering",
+    "image": "/default-project.svg",
+    "description": "Data engineering pipeline ingesting, cleaning, and modeling COVID-19 datasets to enable downstream analytics and reporting.",
+    "tags": [
+      "Python",
+      "Data Modeling",
+      "Analytics"
+    ],
+    "source_code": "https://github.com/nandamudimohanteja/covid19-data-engineering",
+    "demo": "https://github.com/nandamudimohanteja/covid19-data-engineering"
+  },
+  {
+    "id": 5,
+    "name": "Extracting Structured Data from PDFs",
+    "image": "/default-project.svg",
+    "description": "Python utility for parsing and extracting structured, queryable data from unstructured PDF documents.",
+    "tags": [
+      "Python",
+      "Data Extraction"
+    ],
+    "source_code": "https://github.com/nandamudimohanteja/extracting-structured-data-from-pdfs",
+    "demo": "https://github.com/nandamudimohanteja/extracting-structured-data-from-pdfs"
+  }
+]
