@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-label="COVID-19 Data Engineering">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1a16"/>
+      <stop offset="1" stop-color="#0e2d24"/>
+    </linearGradient>
+    <linearGradient id="line4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#26d07c"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="300" fill="url(#bg4)"/>
+
+  <!-- chart axes -->
+  <g stroke="#214c40" stroke-width="1.5">
+    <path d="M280 60 V210 H560"/>
+  </g>
+  <g stroke="#1f3a33" stroke-width="0.5" stroke-dasharray="3 4">
+    <path d="M280 90 H560 M280 130 H560 M280 170 H560"/>
+  </g>
+
+  <!-- area chart -->
+  <path d="M280 200 L320 170 L360 180 L400 140 L440 150 L480 110 L520 130 L560 80 L560 210 L280 210 Z"
+        fill="url(#line4)" opacity="0.25"/>
+  <path d="M280 200 L320 170 L360 180 L400 140 L440 150 L480 110 L520 130 L560 80"
+        fill="none" stroke="url(#line4)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#26d07c">
+    <circle cx="280" cy="200" r="3.5"/>
+    <circle cx="320" cy="170" r="3.5"/>
+    <circle cx="360" cy="180" r="3.5"/>
+    <circle cx="400" cy="140" r="3.5"/>
+    <circle cx="440" cy="150" r="3.5"/>
+    <circle cx="480" cy="110" r="3.5"/>
+    <circle cx="520" cy="130" r="3.5"/>
+    <circle cx="560" cy="80" r="3.5"/>
+  </g>
+
+  <!-- virus glyph -->
+  <g transform="translate(135,130)" fill="none" stroke="#26d07c" stroke-width="2.5" stroke-linecap="round">
+    <circle r="42" fill="#0e2d24" stroke="#26d07c"/>
+    <circle r="14" fill="#26d07c" opacity="0.18"/>
+    <g stroke-linecap="round">
+      <path d="M0 -55 V-42"/><path d="M0 55 V42"/>
+      <path d="M-55 0 H-42"/><path d="M55 0 H42"/>
+      <path d="M-39 -39 L-30 -30"/><path d="M39 -39 L30 -30"/>
+      <path d="M-39 39 L-30 30"/><path d="M39 39 L30 30"/>
+    </g>
+    <g fill="#26d07c" stroke="none">
+      <circle cx="0" cy="-55" r="5"/>
+      <circle cx="0" cy="55" r="5"/>
+      <circle cx="-55" cy="0" r="5"/>
+      <circle cx="55" cy="0" r="5"/>
+      <circle cx="-39" cy="-39" r="5"/>
+      <circle cx="39" cy="-39" r="5"/>
+      <circle cx="-39" cy="39" r="5"/>
+      <circle cx="39" cy="39" r="5"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#e6edf3">
+    <text x="40" y="250" font-size="24" font-weight="700">COVID-19 Data Engineering</text>
+    <text x="40" y="276" font-size="16" fill="#7dd3a3">Ingestion · Modeling · Analytics</text>
+  </g>
+</svg>

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Data Pipelines with Airflow",
-    "image": "/default-project.svg",
+    "image": "/projects/airflow-pipelines.svg",
     "description": "Orchestrated ETL workflows with Apache Airflow DAGs, covering scheduling, retries, and dependency management for reliable batch processing.",
     "tags": [
       "Airflow",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "ETL Data Pipeline using Airflow",
-    "image": "/default-project.svg",
+    "image": "/projects/etl-airflow.svg",
     "description": "End-to-end ETL pipeline built with Airflow for ingestion, transformation, and loading data into a warehouse with dependable scheduling.",
     "tags": [
       "Airflow",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "name": "YouTube Trending ETL on AWS",
-    "image": "/default-project.svg",
+    "image": "/projects/youtube-aws-etl.svg",
     "description": "AWS data pipeline using S3, Glue, and Athena to ingest and analyze YouTube trending datasets at scale.",
     "tags": [
       "AWS",
@@ -42,7 +42,7 @@
   {
     "id": 4,
     "name": "COVID-19 Data Engineering",
-    "image": "/default-project.svg",
+    "image": "/projects/covid19-data.svg",
     "description": "Data engineering pipeline ingesting, cleaning, and modeling COVID-19 datasets to enable downstream analytics and reporting.",
     "tags": [
       "Python",
@@ -55,7 +55,7 @@
   {
     "id": 5,
     "name": "Extracting Structured Data from PDFs",
-    "image": "/default-project.svg",
+    "image": "/projects/pdf-extraction.svg",
     "description": "Python utility for parsing and extracting structured, queryable data from unstructured PDF documents.",
     "tags": [
       "Python",

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-label="Data Pipelines with Airflow">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#13243d"/>
+    </linearGradient>
+    <linearGradient id="node1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#11ace0"/>
+      <stop offset="1" stop-color="#017cee"/>
+    </linearGradient>
+    <filter id="glow1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" fill="url(#bg1)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#1f3357" stroke-width="0.5" opacity="0.5">
+    <path d="M0 60 H600 M0 120 H600 M0 180 H600 M0 240 H600"/>
+    <path d="M60 0 V300 M120 0 V300 M180 0 V300 M240 0 V300 M300 0 V300 M360 0 V300 M420 0 V300 M480 0 V300 M540 0 V300"/>
+  </g>
+
+  <!-- DAG -->
+  <g filter="url(#glow1)">
+    <!-- edges -->
+    <g stroke="url(#node1)" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M120 120 L220 80"/>
+      <path d="M120 120 L220 160"/>
+      <path d="M220 80 L340 120"/>
+      <path d="M220 160 L340 120"/>
+      <path d="M340 120 L460 80"/>
+      <path d="M340 120 L460 160"/>
+    </g>
+    <!-- nodes -->
+    <g fill="url(#node1)">
+      <circle cx="120" cy="120" r="14"/>
+      <circle cx="220" cy="80"  r="14"/>
+      <circle cx="220" cy="160" r="14"/>
+      <circle cx="340" cy="120" r="16"/>
+      <circle cx="460" cy="80"  r="14"/>
+      <circle cx="460" cy="160" r="14"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#e6edf3">
+    <text x="40" y="244" font-size="26" font-weight="700">Data Pipelines</text>
+    <text x="40" y="272" font-size="18" fill="#9ecbff">with Apache Airflow</text>
+  </g>
+
+  <!-- corner badge -->
+  <g transform="translate(440,30)">
+    <rect width="130" height="28" rx="14" fill="#017cee" opacity="0.18"/>
+    <text x="65" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#9ecbff">Airflow · Python</text>
+  </g>
+</svg>
